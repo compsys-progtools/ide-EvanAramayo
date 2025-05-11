@@ -1,0 +1,27 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "explore tour",
+  "steps": [
+    {
+      "file": "ide-EvanAramayo/main.cpp",
+      "description": "Welcome! In this tour we will use Bracket Pair Colorizer and intellisense to help navigate nested code and spot issues more easily.",
+      "line": 1
+    },
+    {
+      "file": "ide-EvanAramayo/main.cpp",
+      "description": "Here we can see the hello is underlined in red. This is helpful to me because all errors will be highlighted so I can spend less time debugging my code.",
+      "line": 16
+    },
+    {
+      "file": "ide-EvanAramayo/main.cpp",
+      "description": "Here this line is trying to declare an integer but is not followed by a value such as -4,0,3,7. Lets try changing this value to 10.",
+      "line": 17
+    },
+    {
+      "file": "ide-EvanAramayo/main.cpp",
+      "description": "in main() end is set to 5, which is less than start (10). The for loop should not run, but the logic is hard to spot just by reading the code. The Brakcet pair color extension will make it easier for the user to see how code blocks are organized. \n\n",
+      "line": 18
+    }
+  ],
+  "ref": "main"
+}
