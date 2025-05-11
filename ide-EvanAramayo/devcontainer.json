@@ -1,0 +1,14 @@
+{
+  "name": "C++ Dev with CodeTour and Bracket Pair Colorizer",
+  "image": "mcr.microsoft.com/devcontainers/cpp:bullseye",
+  "features": {},
+  "postCreateCommand": "code --install-extension vsls-contrib.codetour && code --install-extension CoenraadS.bracket-pair-colorizer-2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vsls-contrib.codetour",
+        "CoenraadS.bracket-pair-colorizer-2"
+      ]
+    }
+  }
+}
